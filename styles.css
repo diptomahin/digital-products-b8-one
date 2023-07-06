@@ -34,3 +34,39 @@
 .menu-item:hover {
     color: black;
 } 
+.banner-container
+{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    border: 2px solid gray;
+    align-items: center;
+    background-image: url("/images/background.png"),
+     linear-gradient(45deg, #252424, #313030 );
+}
+.banner-img
+{
+    width: 300px;
+}
+.banner-text
+{
+    color: white;
+}
+.banner-btn{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+.title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.content
+{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
