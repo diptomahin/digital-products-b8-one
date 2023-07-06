@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container
+{
+   background-color: rgb(37, 35, 35);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px;
+
+}
+.logo-photo
+{
+  width: 120px;
+  pad: 5px; 
+}
+.menu
+{
+    color: white;
+    list-style: none;
+    display: flex;
+    
+}
+.menu-item
+{
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.menu-item:hover {
+    color: black;
+} 
