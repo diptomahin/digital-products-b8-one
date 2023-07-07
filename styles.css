@@ -57,6 +57,7 @@
     color: white;
     padding: 15px;
     cursor: pointer;
+    border-color: white;
     
 }
 .title{
@@ -69,4 +70,21 @@
     margin-top: 15px;
     margin-bottom: 15px;
 
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+
+}
+.about-img{
+   width: 300px;
+}
+.title-about
+{
+  padding: 10px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
 }
