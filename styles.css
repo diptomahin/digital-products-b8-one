@@ -153,6 +153,14 @@
 {
     color: white;
 }
-hr{
-    display: block;
+.copy{
+    background-color: #080808;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+.copy-text
+{
+    margin-top: 10px;
 }
