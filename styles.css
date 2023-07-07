@@ -16,7 +16,7 @@
 .logo-photo
 {
   width: 120px;
-  pad: 5px; 
+  padding: 5px; 
 }
 .menu
 {
@@ -103,6 +103,7 @@
     background-image: url("/images/background.png"),
     linear-gradient(45deg, #131212, #080808 );
     padding: 10px;
+
 }
 
 
@@ -133,4 +134,25 @@
 .about-2
 {
     color: white;
+}
+.footer-container
+{
+    background-color: #080808;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.useful-links
+{
+    color: white;
+}
+.support{
+    color: white;
+}
+.contact-info
+{
+    color: white;
+}
+hr{
+    display: block;
 }
